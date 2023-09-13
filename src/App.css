@@ -34,7 +34,7 @@ nav{
 
 main{ display: flex; width: 20vw;
   flex-direction: column; justify-content: center;
-  align-items: center; height: 400vh;
+  align-items: center; height: 150vh;
   display: inline-block;
   margin-right: 20px;
 }
