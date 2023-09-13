@@ -5,9 +5,9 @@ import App from './App.jsx'
 //importando elementos que irá precisar do router e as paginas main.jsx. E chamando os componentes Menu e Rodape no App
 import {createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom'
 import Home from './routes/Home/Home.jsx'
-import Produtos from './routes/Produtos/Produtos.jsx'
+import Produtos from './routes/Produtos/Produto.jsx'
 import Error from './routes/Error/Error.jsx'
-import EditarProduto from './routes/EditarProdutos/EditarProdutos.jsx'
+import EditarProduto from './routes/EditarProdutos/EditarProduto.jsx'
 
 
 //Configurando rotas para utilizar o metodo createBrowserRouter, recebe dados do App e dentro do atributo children

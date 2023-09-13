@@ -1,6 +1,6 @@
 //acessar dados da lista
 import {useParams, useNavigate } from "react-router-dom"
-import { ListaProdutos } from "../../components/ListaProdutos"
+import { ListaProdutos } from "../../components/listaProduto"
 
 export default function EditarProduto() {
 

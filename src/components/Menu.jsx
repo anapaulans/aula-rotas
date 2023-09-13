@@ -1,5 +1,5 @@
 //Importando o componente Link do router dom
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
 
 export default function Menu() {
   return (

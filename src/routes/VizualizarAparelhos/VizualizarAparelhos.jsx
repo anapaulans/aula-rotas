@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import aparelhos from './aparelhos'; 
-import { ListaProdutos } from '../../components/ListaProduto';
+import { ListaProdutos } from '../../components/listaProduto';
 
 const VisualizarAparelho = () => {
   const { id } = useParams();
