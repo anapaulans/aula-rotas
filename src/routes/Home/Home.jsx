@@ -5,7 +5,7 @@ export default function Home() {
           <section>
             <h2>Promoções do dia</h2>
             <article class="news-item">
-              <img src="public/img celular.png" alt="Imagem do produto 1" />
+              <img src="https://picsum.photos/100/100" alt="Imagem do produto 1" />
               <h3>Apple iPhone 13</h3>
               <p>Apple iPhone 13 128GB Meia-noite Tela 6,1” 12MP</p>
               <a href="#">R$ 4.099,00 no Pix</a>
