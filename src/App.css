@@ -32,7 +32,9 @@ nav{
   margin-bottom: 2rem;
 }
 
-main{ display: flex; width: 20vw;
+
+main{ 
+  display: flex; width: 20vw;
   flex-direction: column; justify-content: center;
   align-items: center; height: 150vh;
   display: inline-block;
@@ -40,7 +42,11 @@ main{ display: flex; width: 20vw;
 }
 
 footer{
-  display: flex; width: 100vw; justify-content: center;
-  align-items: center; height: 20vh;
-  background-color: #666161;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background-color: rgb(0, 0, 0);
+  color:white
 }

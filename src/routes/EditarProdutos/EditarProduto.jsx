@@ -21,9 +21,10 @@ export default function EditarProduto() {
   return (
     <main>
         <h1>Produtos</h1>
-        <p>Preço: R$ {produto.preco}</p>
-        <p>Descrição: Todos os produtos estão com promoções imperdíveis, não deixe de comprar!</p>
+        <h2>{produto.nome}</h2>
         <img src={produto.imagem} alt={produto.nome} />
+        <p>Preço: R$ {produto.preco}</p>
+        <p>Gostou de algum produto? Compre já, não perca essa promoção </p>
         <button onClick={salvar}>Salvar</button>
     </main>
   )

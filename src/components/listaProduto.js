@@ -10,30 +10,31 @@ export const ListaProdutos = [
         id: 1,
         nome: 'Teclado',
         imagem: teclado,
-        preco: 200
+        preco: 250,
     },
     {
         id: 2,
         nome: 'Mouse',
         imagem: mouse,
-        preco: 100
+        preco: 100,
     },
     {
         id: 3,
         nome:'Monitor',
         imagem: monitor,
-        preco: 950
+        preco: 1500,
     },
     {
         id: 4,
         nome:'Celular',
         imagem: celular,
-        preco: 4099
+        preco: 8000,
     },
     {
         id: 5,
         nome:'notebook',
         imagem: macbook,
-        preco: 2000
+        preco: 2800,
+       
     },
 ]
