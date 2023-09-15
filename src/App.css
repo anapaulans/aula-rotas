@@ -33,8 +33,7 @@ nav{
 }
 
 
-main{ 
-  display: flex; width: 20vw;
+main{ display: flex; width: 20vw;
   flex-direction: column; justify-content: center;
   align-items: center; height: 150vh;
   display: inline-block;
