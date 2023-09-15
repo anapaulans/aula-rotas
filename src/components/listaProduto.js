@@ -1,40 +1,52 @@
-import teclado from '../imagem/img teclado.jpg';
-import mouse from '../imagem/img mouse.jpg';
-import monitor from '../imagem/img monitor.jpg';
-import macbook from '../imagem/img macbook.jpg';
-import celular from '../imagem/img celular.png'
-
-//Passando valor de uma pagina para outra 
 export const ListaProdutos = [
     {
         id: 1,
-        nome: 'Teclado',
-        imagem: teclado,
-        preco: 250,
+        nome: 'Apple iPhone 13',
+        img:"https://a-static.mlcdn.com.br/800x560/apple-iphone-13-128gb-meia-noite-tela-61-12mp/magazineluiza/234661800/a57c1ab14765ab0b7ca87de98ba94b94.jpg",
+        preco: 6500,
+        memoria: "512 GB",
+        ram: "5 GB",
+        polegada: "6,1",
+        cor:  "meia,noite",
     },
     {
         id: 2,
-        nome: 'Mouse',
-        imagem: mouse,
-        preco: 100,
+        nome:'Apple iPhone 14 Pro Max',
+        img:"https://planoscelular.claro.com.br/medias/18391-0-zero-300Wx300H-productCard?context=bWFzdGVyfGltYWdlc3w2OTc0NHxpbWFnZS9wbmd8aGNkL2hmZi85MjY3OTY0MDE4NzE4LzE4MzkxXzBfemVyb18zMDBXeDMwMEhfcHJvZHVjdENhcmR8NGI3NDdjMWIyYWYwODEzZTQwYTY3YzRhOTc3NTc2NGFiZWJiYzBkOThlNWYwYTM4ODkwYzM3MTJlZjYwYmEzNA",
+        preco: 8000,
+        memoria: "128 GB",
+        ram: "5 GB",
+        polegada: "6,7",
+        cor:  "Roxo-profundo",
     },
     {
         id: 3,
-        nome:'Monitor',
-        imagem: monitor,
-        preco: 1500,
+        nome:'Samsung Galaxy S21 FE',
+        img:"https://m.media-amazon.com/images/I/71YQA5lsLfL._AC_SX679_.jpg",
+        preco: 2709,
+        memoria: "128 GB",
+        ram: "5 GB",
+        polegada: "6,4",
+        cor:  "violeta",
     },
     {
         id: 4,
-        nome:'Celular',
-        imagem: celular,
-        preco: 8000,
+        nome:'Smartphone Motorola Moto G23',
+        img:"https://m.media-amazon.com/images/I/51ZQH6F1lDL._AC_SX569_.jpg",
+        preco: 1000,
+        memoria: "128 GB",
+        ram: "4 GB",
+        polegada: "6,5",
+        cor:  "branco",
     },
     {
         id: 5,
-        nome:'notebook',
-        imagem: macbook,
-        preco: 2800,
-       
+        nome: 'Xiaomi Note 12s',
+        img:"https://http2.mlstatic.com/D_NQ_NP_733453-MLU69624042786_052023-O.webp",
+        preco: 6000,
+        memoria: "256 GB",
+        ram: "8 GB",
+        polegada: "6,4",
+        cor:  "preto",
     },
 ]

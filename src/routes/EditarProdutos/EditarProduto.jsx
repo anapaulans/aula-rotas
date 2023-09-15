@@ -1,13 +1,10 @@
-//acessar dados da lista
 import {useParams, useNavigate } from "react-router-dom"
 import { ListaProdutos } from "../../components/listaProduto"
 
 export default function EditarProduto() {
 
   const lista = ListaProdutos
-  //useNavigate- nos permite redirecionar como un link, só que de dentro do codigo
   const navegacao = useNavigate()
-  //useParams- metodo do router para pegar os dado passados na uri
   const {id} = useParams()
 
   const proc = lista.filter(prod => prod.id == id)
@@ -20,12 +17,14 @@ export default function EditarProduto() {
   
   return (
     <main>
-        <h1>Produtos</h1>
+      <div class="style-product">
+        <h1>PRODUTOS</h1>
         <h2>{produto.nome}</h2>
-        <img src={produto.imagem} alt={produto.nome} />
-        <p>Preço: R$ {produto.preco}</p>
-        <p>Gostou de algum produto? Compre já, não perca essa promoção </p>
-        <button onClick={salvar}>Salvar</button>
+        <h2>R${produto.preco}</h2>
+        <p><img src={`${produto.img}`} alt={`${produto.nome}`} /></p>
+        <p>Detalhes do aparelho: </p>
+        <p>Memória: {produto.memoria}, Ram: {produto.ram}, Polegada: {produto.polegada}, Cor: {produto.cor}</p>
+      </div>   
     </main>
   )
 }
