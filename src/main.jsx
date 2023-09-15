@@ -30,6 +30,10 @@ const router = createBrowserRouter([
       element: <EditarProduto/>
     },
     {
+      path: '/Error',
+      element: <Navigate to="/"/>
+    },
+    {
 // Serve para se alguem tentar ir para o endereço antigo, será direcionado para a pagina home
       path: "/antiga",
       element: <Navigate to="/"/>
